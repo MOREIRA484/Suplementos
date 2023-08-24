@@ -13,6 +13,11 @@
 		8E2777E12A95CF1E00E31F95 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E2777E02A95CF1E00E31F95 /* Preview Assets.xcassets */; };
 		8E2777EC2A95D23400E31F95 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2777EB2A95D23400E31F95 /* LoginView.swift */; };
 		8E2777EE2A95E76400E31F95 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2777ED2A95E76400E31F95 /* RegisterView.swift */; };
+		8E2777F12A970AE300E31F95 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2777F02A970AE300E31F95 /* TabBarView.swift */; };
+		8E2777F42A970AF900E31F95 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2777F32A970AF900E31F95 /* HomeView.swift */; };
+		8E2777F62A970B2800E31F95 /* PerfilView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2777F52A970B2800E31F95 /* PerfilView.swift */; };
+		8E2777F82A970B3600E31F95 /* CarrinhoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2777F72A970B3500E31F95 /* CarrinhoView.swift */; };
+		8E2777FA2A970B7600E31F95 /* BuscarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2777F92A970B7600E31F95 /* BuscarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +28,11 @@
 		8E2777E02A95CF1E00E31F95 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8E2777EB2A95D23400E31F95 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		8E2777ED2A95E76400E31F95 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		8E2777F02A970AE300E31F95 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		8E2777F32A970AF900E31F95 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		8E2777F52A970B2800E31F95 /* PerfilView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilView.swift; sourceTree = "<group>"; };
+		8E2777F72A970B3500E31F95 /* CarrinhoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrinhoView.swift; sourceTree = "<group>"; };
+		8E2777F92A970B7600E31F95 /* BuscarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuscarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +69,7 @@
 				8E2777E72A95D08D00E31F95 /* View */,
 				8E2777E82A95D09500E31F95 /* Models */,
 				8E2777E92A95D09E00E31F95 /* Login */,
+				8E2777EF2A970AAC00E31F95 /* TabBar */,
 				8E2777EA2A95D0BF00E31F95 /* Fotos */,
 				8E2777DF2A95CF1E00E31F95 /* Preview Content */,
 			);
@@ -103,6 +114,18 @@
 				8E2777DD2A95CF1E00E31F95 /* Assets.xcassets */,
 			);
 			path = Fotos;
+			sourceTree = "<group>";
+		};
+		8E2777EF2A970AAC00E31F95 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				8E2777F02A970AE300E31F95 /* TabBarView.swift */,
+				8E2777F32A970AF900E31F95 /* HomeView.swift */,
+				8E2777F92A970B7600E31F95 /* BuscarView.swift */,
+				8E2777F72A970B3500E31F95 /* CarrinhoView.swift */,
+				8E2777F52A970B2800E31F95 /* PerfilView.swift */,
+			);
+			path = TabBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,9 +199,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E2777EC2A95D23400E31F95 /* LoginView.swift in Sources */,
+				8E2777F62A970B2800E31F95 /* PerfilView.swift in Sources */,
 				8E2777EE2A95E76400E31F95 /* RegisterView.swift in Sources */,
 				8E2777DC2A95CF1D00E31F95 /* ContentView.swift in Sources */,
+				8E2777F42A970AF900E31F95 /* HomeView.swift in Sources */,
+				8E2777F12A970AE300E31F95 /* TabBarView.swift in Sources */,
+				8E2777F82A970B3600E31F95 /* CarrinhoView.swift in Sources */,
 				8E2777DA2A95CF1D00E31F95 /* SuplementosApp.swift in Sources */,
+				8E2777FA2A970B7600E31F95 /* BuscarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
